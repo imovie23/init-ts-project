@@ -55,6 +55,9 @@ A quick look at the top-level files and directories you'll see in a starter proj
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
+    ├── jest.config.js
+    ├── tsconfig.json
+    ├── webpack.config.js
     └── README.md
 
 ## 🎓 Learning about webpack, babel, jest, travis ci
