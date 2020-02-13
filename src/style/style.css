@@ -1,0 +1,50 @@
+@import "~normalize.css";
+@import "./fontsExample.css";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    font-family: "OpenSans-Regular", sans-serif;
+}
+
+.header-css {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+}
+
+.header-css__heading {
+    color: #fff;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .header-css__heading {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .header-css__heading {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .header-css__heading {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .header-css__heading {
+        font-size: 25px;
+    }
+}
+
+

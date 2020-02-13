@@ -1,0 +1,76 @@
+@border: 1px solid #fff;
+
+.btn-less {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  &__example {
+    width: 10%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: @border;
+    margin: 0 auto 10px;
+
+    &:hover {
+      background-color: white;
+    }
+
+    &:hover .btn-less__txt {
+      color: #121212;
+    }
+  }
+
+  &__txt {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+
+  }
+
+  &__count {
+    color: #fff;
+    font-size: 20px;
+  }
+
+}
+
+@media screen and
+(
+min-width: 480px
+
+) {
+  .btn-less {
+    &__txt {
+      font-size: 14px;
+    }
+  }
+
+}
+
+@media screen and (min-width: 720px) {
+  .btn-less {
+    &__txt {
+      font-size: 17px;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .btn-less {
+    &__txt {
+      font-size: 20px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .btn-less {
+    &__txt {
+      font-size: 25px;
+    }
+  }
+}
